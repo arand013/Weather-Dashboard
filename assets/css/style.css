@@ -1,30 +1,31 @@
-/* styles for UL */
 ul {
     list-style: none;
+}
 
-}
-/* styles for Li */
 li {
-    border-bottom: 1px solid lightgray;
     text-align: left;
-    padding-left: 10px;
+    padding-left: 11px;
+    border-bottom: 1px solid lightgray;
 }
+
 /* styles for card titles  */
-.card-title {
-    font-size: 20px;
+
+.card-styles {
+    font-size: 25px;
 }
-/* styles for img size  */
+
 img {
-    width: 100px;
-    height: 100px;
+    height: 120px;
+    width: 120px;
 }
+
 /* styles for five day forecast colors */
-.fiveDayColor {
+
+.fiveDayStyles {
     padding: 20px;
-    background-color: #1E90FF;
-    color: white;
     float: left;
     margin: 10px;
-    border: 1px solid lightgray;
-
+    background-color: #1E90FF;
+    border: 1px solid rgb(255, 255, 255);
+    color: rgb(231, 231, 231);
 }
