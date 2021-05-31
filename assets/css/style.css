@@ -8,7 +8,7 @@ li {
     border-bottom: 1px solid lightgray;
 }
 
-/* styles for card titles  */
+/* card titles */
 
 .card-styles {
     font-size: 25px;
@@ -19,9 +19,9 @@ img {
     width: 120px;
 }
 
-/* styles for five day forecast colors */
+/* 5 day forecast style */
 
-.fiveDayStyles {
+.fiveDayColor {
     padding: 20px;
     float: left;
     margin: 10px;

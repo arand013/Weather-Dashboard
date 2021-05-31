@@ -1,19 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- Head Start-->
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap linked to CSS -->
+    <!-- Bootstrap linked with CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <!-- Title -->
-    <title>Weather Dashboard</title>
+    <!-- Web Title -->
+    <title>Weather Dashboard Online</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
-
+<!-- End Of Head -->
 <!-- Javascript -->
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"
     integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
@@ -27,6 +28,7 @@
 
 
 <!-- HTML Start -->
+<!-- 1st Container -->
 
 <div class="container-fluid">
     <div class="card">
@@ -35,22 +37,22 @@
         </div>
     </div>
 
-    <!-- 1st Conatainer -->
+    <!-- Container parent -->
     <div class="container">
         <div class="row">
             <div class="col">
                 <div class="card-body text-center">
-                    <!-- Search input here -->
-
+                    <!-- Search input Container (child) -->
                     <div class="card" style="width: 20rem;">
                         <div class="card-body bg-light">
                             <h6 class="card-subtitle mb-2 text-muted">Search For A City</h6>
                             <div class="input-group mb-3">
                                 <input type="text" class="form-control searchInput" placeholder="City Name Here"
-                                    aria-label="Recipient's username" aria-describedby="button-addon2">
+                                    aria-describedby="button-addon2" aria-label="Recipient's username">
                                 <div class="input-group-append">
                                     <button class="btn btn-outline-secondary bg-primary searchButton" type="button"
-                                        id="button-addon2"><i class="fas fa-search"></i></button>
+                                        id="button-addon2">
+                                        <i class="fas fa-search"></i></button>
                                 </div>
                             </div>
 
@@ -61,7 +63,8 @@
                     </div>
                 </div>
             </div>
-            <!-- Appends current weather forecast-->
+
+            <!-- Current Weather Container (child) -->
             <div class="col mt-4 mr-5">
                 <div class="card currentCard pb-2 pt-1">
                     <h5 class="card-styles mt-2 text-center">Current Forecast</h5>
@@ -70,7 +73,8 @@
             <div class="row">
                 <div class="col mt-4">
                     <div class="card pb-5 fiveDayCard pl-5">
-                        <!-- Appends 5 day forecast-->
+
+                        <!-- 5 day forecast Container (child)-->
                         <h5 class="card-styles mt-2 mr-5">5-Day Forecast </h5>
                         <div class="row">
                             <div class="col fiveDayOne">
@@ -84,10 +88,10 @@
         </div>
     </div>
 </div>
+<!--End Of HTML-->
 <!-- Javacript -->
 <script src="assets/javascript/script.js"></script>
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-
 
 </html>
