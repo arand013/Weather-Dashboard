@@ -1,5 +1,5 @@
 # Weather-Dashboard
-[link to the Work Day Scheduler here!] ( ----- )
+[link to the Weather-Dashboard here!] ( https://arand013.github.io/Weather-Dashboard/ )
 
 
 * GIVEN a weather dashboard with form inputs
