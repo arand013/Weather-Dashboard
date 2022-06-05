@@ -79,7 +79,7 @@ searchButton.click(function () {
             var day = [0, 8, 16, 24, 32];
 
             var fiveDayDiv = $(".fiveDayOne").addClass("card-text");
-            fiveDayDiv.empty();
+            fiveDayDiv.empty(); 
             // For each for 5 days
             day.forEach(function (i) {
                 var FiveDayTimeUTC1 = new Date(response.list[i].dt * 1000);
