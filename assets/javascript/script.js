@@ -69,6 +69,7 @@ searchButton.click(function () {
                 currentTemp.append(currentUV);
             });
         });
+        
 
         // Calls 5-day forecast 
         $.ajax({
